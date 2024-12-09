@@ -1,0 +1,93 @@
+/* General Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Hero Section */
+.hero-section {
+    background: url('cooking-background.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 120px 0;
+}
+/* Sticky Navbar */
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Ensures the navbar is always above other content */
+    background-color: #333; /* Navbar background color */
+    padding: 0.5rem 1rem; /* Adjust spacing */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Add shadow for better visibility */
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.8rem; /* Make the logo more prominent */
+    color: #ff6f61 !important;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.hero-content .btn-primary {
+    background-color: #ff6f61;
+    border: none;
+}
+
+.hero-content .btn-primary:hover {
+    background-color: #e05a50;
+}
+.recipes-section h2 {
+    font-size: 2.5rem; 
+    color: #ff6f61; 
+    text-align: center; /* Center-align the text */
+    text-transform: uppercase; /* Make text uppercase */
+    margin: 0 auto 1.5rem; /* Center the heading and add space below */
+    font-weight: bold;
+    letter-spacing: 1px; /* Add spacing between letters */
+    border-bottom: 2px solid #ff6f61; /* Underline the heading */
+    width: fit-content; /* Shrink the underline to the text width */
+    padding-bottom: 0.5rem; /* Space between the text and underline */
+    display: block; /* Ensure proper centering within its container */
+}
+
+
+.card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.card-title {
+    color: #ff6f61;
+}
+
+/* About Section */
+.about-section {
+    background-color: #f8f9fa;
+}
+
+.about-section h2 {
+    color: #333;
+}
+
+/* Contact Section */
+.contact-section h2 {
+    color: #333;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+}
